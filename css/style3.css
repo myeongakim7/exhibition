@@ -1,0 +1,53 @@
+ @charset "utf-8";
+
+
+
+.topic {border-top: 1px solid #41403E;}
+.topic .section_inner {padding: 134px 0 0;}
+.topic .section_inner .swiper-container {margin-top: 70px; opacity: 0; transition: opacity 0.8s ease, transform 0.8s ease;}
+.topic .section_inner .swiper-container .swiper-wrapper {width: 964px; justify-content: space-between; margin: 0 auto;}
+.topic .section_inner .swiper-container .swiper-slide {position: relative; width: 250px !important; margin-right: 0 !important; transform: scale(1); opacity: 1; transition: transform 0.8s ease, opacity 0.8s ease;}
+.topic .section_inner .swiper-container .swiper-slide .img_topic a > img {width: 100%;}
+
+.topic .section_inner .topic_info {position: relative; display: flex; opacity: 0; justify-content: space-between; width: 964px; height: 340px; margin: 35px auto 0; transition: opacity 0.8s ease, transform 0.8s ease;}
+.topic .section_inner .topic_info .swiper-slide {position: relative; top: 0; opacity: 1; z-index: 1; width: 275px;}
+.topic .section_inner .topic_info .swiper-slide .tx_topic {position: relative;}
+.topic .section_inner .topic_info .swiper-slide .tx_topic dt {position: relative; display: flex; align-items: flex-start; justify-content: space-between; font-size: 20px; line-height: 30px; letter-spacing: 2px; color: #F9F5F1;}
+.topic .section_inner .topic_info .swiper-slide .tx_topic dt .btn_more {position: absolute; right: 0; top: -2px; display: block; width: 29px; height: 29px; background: url(../images/plus_btn.png) no-repeat; background-size: 100% auto; overflow: hidden;}
+.topic .section_inner .topic_info .swiper-slide .tx_topic dd {position: relative; margin-top: 14px; font-size: 14px; line-height: 22px; letter-spacing: 1.26px; color: #989694;}
+
+
+
+.topic .section_inner .swiper-container[data-animated="true"] {opacity: 1; transform: translate(0, 0);}
+.topic .section_inner .topic_info[data-animated="true"] {opacity: 1; transform: translate(0, 0);}
+@media screen and (max-width:1280px){
+    .topic {}
+    .topic .section_inner .swiper-container .swiper-wrapper {width: 840px;}
+    .topic .section_inner .topic_info {width: 840px; height: 255px; margin: 42px auto 0;}
+    .topic .section_inner .topic_info .swiper-slide {position: relative; width: 250px;}
+    .topic .section_inner .topic_info .swiper-slide .tx_topic dt {gap: 10px;}
+}
+@media screen and (max-width:960px){
+    .topic {width: 768px; margin: 0 auto;}
+    .topic .section_inner .swiper-container {margin-top: 76px;}
+    .topic .section_inner .swiper-container .swiper-wrapper {margin-left: 12px;}
+    .topic .section_inner .swiper-container .swiper-slide {margin-right: 24px !important; width: 290px !important;     opacity: 0.5; transform: scale(0.86);}
+    .topic .section_inner .swiper-container .swiper-slide-active {opacity: 1; transform: scale(1);}
+    
+    
+    .topic .section_inner .topic_info {transform: translate(0, 20px); margin: 42px auto 0; width: 290px; height: 255px;}
+    .topic .section_inner .topic_info .swiper-slide {position: absolute; left:0;}
+    .topic .section_inner .topic_info .swiper-slide.active {top:0; opacity: 1; z-index: 2; transition: top 0.8s ease, opacity 0.8s ease;}
+    .topic .section_inner .topic_info .swiper-slide.hide {top: 0; opacity: 0; transition: top 0.2s ease, opacity 0.2s ease;}
+}
+@media screen and (max-width:767px){
+    .topic .section_inner .swiper-container {argin-top: 7.692vw;}
+    .topic .section_inner .swiper-container .swiper-wrapper {margin-left: 3.0777vw;}
+    .topic .section_inner .swiper-container .swiper-slide {position: relative; margin-right: 6.154vw !important; width: 58.974vw !important; opacity: 0.5; transform: scale(0.86);}
+    .topic .section_inner .topic_info {margin: 10.769vw 12.821vw 0; height: 52.051vw;}
+    .topic .section_inner .topic_info .swiper-slide .tx_topic dt {font-size: 5.128vw; line-height: 7.692vw; letter-spacing: 0.513vw;}
+    .topic .section_inner .topic_info .swiper-slide .tx_topic dt .btn_more {
+    position: relative; top: -0.513vw; width: 7.436vw; height: 7.436vw;}
+    .topic .section_inner .topic_info .swiper-slide .tx_topic dd {margin-top: 3.59vw; font-size: 3.59vw; line-height: 5.641vw; letter-spacing: 0.323vw;}
+
+}
