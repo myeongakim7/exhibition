@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title></title>
+
+	<!-- 반디비즈 파일 -->
+	<link rel="stylesheet" href="../../css/common.css" />
+
+	<link rel="stylesheet" href="../../css/aos.css" />
+	<link rel="stylesheet" href="../../css/univers-pro.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../../css/style.css" />
+
+
+	<script src="../../js/aos.js"></script>
+	<script src="../../js/jquery-3.1.1.min.js"></script>
+	<script src="../../js/jquery.bpop.js"></script>
+	<script src="../../js/gsap.js"></script>
+
+
+	<script src="../../js/custom.js" defer></script>
+	<script src="https://unpkg.com/split-type"></script>
+	<script src="../js/textMotion.js"></script>
+	<!-- <style>
+		/*p > span {font-size: 4.6154vw;}*/
+		br {
+			display: none;
+		}
+
+		p { display: block !important;}
+
+		.txt_area p span.white {color: #fff;}
+
+		@media (min-width: 1200px) {
+			br.w1024 {
+				display: none;
+			}
+
+			br.w760 {
+				display: none;
+			}
+		}
+
+		@media (min-width: 1024px) and (max-width: 1199px) {
+			br.w1024 {
+				display: unset;
+			}
+
+			br.w760 {
+				display: none;
+			}
+		}
+
+		@media (min-width: 760px) and (max-width: 1023px) {
+			br.w1024 {
+				display: none;
+			}
+
+			br.w760 {
+				display: unset;
+			}
+		}
+	</style> -->
+</head>
+
+<body>
+
+	<div id="prologue" class="wrapper">
+		<header id="header" class="header">
+			<div class="header_inner">
+				<a href="javascript:;" class="menu_box">
+					<div class="menu_icon"></div>
+					<div class="menu_txt"></div>
+				</a>
+				<div class="menu_title"></div>
+				<div class="ticket_wrap">
+					<a href="javascript:;" class="btn_ticket">
+						Ticket
+					</a>
+				</div>
+			</div>
+			<div class="menu_wrap">
+				<a href="javascript:;" class="close_btn"><img src="../../images/close.svg"></a>
+				<div class="menu_cont">
+					<div class="menu_inner">
+						<ul class="menu_layout">
+							<li>
+								<a href="index.html" class="logo">
+									<span class="alt">Cartier,<br/>
+										Crystallization<br/>
+										of Time
+									</span>
+								</a>
+								<div class="lang_sel">
+									<a href="../en/index.html">EN</a>
+									<a href="../ko/index.html" class="active">KR</a>
+								</div>
+							</li>
+							<li>
+								<ul class="menu_list">
+									<li>
+										<a href="prologue.html">
+											<span class="menu_tit">Prologue</span>
+											<span class="menu_sub_txt">시간의 공간</span>
+										</a>
+									</li>
+									<li>
+										<a href="chapter1.html">
+											<span class="menu_tit">Chapter 1</span>
+											<span class="menu_sub_txt">소재의 변신과 색채</span>
+										</a>
+									</li>
+									<li>
+										<a href="chapter2.html">
+											<span class="menu_tit">Chapter 2</span>
+											<span class="menu_sub_txt">형태와 디자인</span>
+										</a>
+									</li>
+									<li>
+										<a href="chapter3.html">
+											<span class="menu_tit">Chapter 3</span>
+											<span class="menu_sub_txt">범세계적인 호기심</span>
+										</a>
+									</li>
+									<li>
+										<a href="symbol.html">
+											<span class="menu_tit">Panthère</span>
+											<span class="menu_sub_txt">시대를 초월한 상징</span>
+										</a>
+									</li>
+									<li>
+										<a href="archive.html">
+											<span class="menu_tit">The Archives</span>
+											<span class="menu_sub_txt">루이 까르띠에의 탐구정신</span>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="info_list">
+									<li><a href="javascript:;" class="btn_info_exhibition">전시 정보</a></li>
+									<li><a href="javascript:;" class="btn_info_ticket">티켓</a></li>
+									<li><a href="javascript:;">공지사항</a></li>
+									<li><a href="https://www.cartier.com/ko-kr/%EB%A9%94%EC%A2%85/%EB%85%B8%ED%95%98%EC%9A%B0-%26-%EA%B3%84%EC%8A%B9/%EA%B9%8C%EB%A5%B4%EB%9D%A0%EC%97%90-%EA%B5%90%EC%9C%A1%EC%9B%90/" class="icon_share" target="_blank">전시 연계 프로그램</a></li>
+								</ul>
+								<div class="online_btn">
+									<a href="javascript:;"><span>티켓 구매</span></a>
+								</div>
+								<!--<div class="program_btn">
+									<a href="javscript:;">Cartier Engagement Program</a>
+								</div>-->
+								<div class="sns_wrap">
+									<div class="sns_text">Social Account</div>
+									<ul class="sns_list">
+										<li><a href="https://www.instagram.com/cartier" target="_blank"><span class="alt">Instagram</span></a></li>
+										<li><a href="https://www.facebook.com/Cartier" target="_blank"><span class="alt">Facebook</span></a></li>
+										<li><a href="https://twitter.com/cartier" target="_blank"><span class="alt">X</span></a></li>
+										<li><a href="https://www.youtube.com/cartier" target="_blank"><span class="alt">Youtube</span></a></li>
+										<!--<li><a href="javascript:;"><span class="alt">Pinterest</span></a></li>
+										<li><a href="javascript:;"><span class="alt">카카오스토리</span></a></li>-->
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="prologue">
+			<section class="section sub_top_section key_frame">
+				<div class="bg mask" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-duration="500">
+					<div class="bg_inner"><video autoplay="autoplay" muted loop playsinline><source src="../../images/bg_prologue.mp4" poster="../../images/prologue.jpg"></source></video></div>
+				</div>
+				<div class="section_inner">
+					<div class="sec_box">
+						<div class="left_title">
+							Prologue
+						</div>
+						<div class="right_cont">
+							<div class="right_title s_motion">
+								시간의 공간
+							</div>
+							<div class="txt_wrap">
+								<div class="txt_area s_motion c_gray">
+									<p>시간의 신비. 미스터리 클락의 신비</p>
+									<div class="line s_motion"></div>
+								</div>
+								<!-- sty2 = 위 태그랑 폰트 크기 다름 -->
+								<div class="txt_motion">
+                                    <div class="txt_area sty2 s_motion">
+                                        <p class="w_1280">
+                                            전시는 까르띠에의 <em>예술성, 창의성, 뛰어난 기술의 </em><br><em>정수를 보여주는 미스터리 클락과 프리즘 클락</em>으로 <br>시작합니다. 까르띠에의 클락은 단순한 장식 예술을 <br>넘어 <em>현재가 순식간에 과거가 되고, 끊임없이 미래를 </em><br><em>향해가는 시간의 신비한 진리</em>를 표현합니다.
+                                        </p>
+                                        <p class="w_960">
+                                            전시는 까르띠에의 <em>예술성, 창의성, 뛰어난 기술의 </em><br><em>정수를 보여주는 미스터리 클락과 프리즘 클락</em>으로 <br>시작합니다. 까르띠에의 클락은 단순한 장식 예술을 <br>넘어 <em>현재가 순식간에 과거가 되고, 끊임없이 미래를 </em><br><em>향해가는 시간의 신비한 진리</em>를 표현합니다.
+                                        </p>
+                                        <p class="w_768">
+                                            전시는 까르띠에의 <em>예술성, </em><br><em>창의성, 뛰어난 기술의 정수를 </em><br><em>보여주는 미스터리 클락과 프리즘 </em><br><em>클락</em>으로 시작합니다. 까르띠에의 <br>클락은 단순한 장식 예술을 넘어 <br><em>현재가 순식간에 과거가 되고, </em><br><em>끊임없이 미래를 향해가는 시간의 </em><br><em>신비한 진리</em>를 표현합니다.
+                                        </p>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section prologue_section1">
+				<div class="empty"></div>
+				<div class="section_inner">
+					<div class="sec_box">
+						<div class="left_title">
+							전시 구성에 대하여
+						</div>
+						<div class="right_cont">
+							<div class="right_title s_motion">
+								빛의 기둥과 시간의 공간
+							</div>
+							<div class="right_title_img s_motion"><img src="../../images/prologue/sec1_img1.png"></div>
+							<div class="txt_wrap">
+								<div class="txt_box">
+									<div class="txt_head s_motion">시간의 공간을 위한 패브릭 </div>
+									<div class="txt_motion">
+                                        <div class="txt_area s_motion">
+                                            <p class="w_1280">
+                                                특별한 패브릭을 사용해 <em>기둥의 은은한 빛이 광석이 묻힌 땅으로 </em><br><em>흘러드는 느낌</em>을 연출했습니다. <em>‘라(羅)’</em>라는 고도의 직조술을 활용해 <br><em>아름다운 그라데이션 효과</em>를 낼 수 있었습니다. ‘라’의 직조 패턴을 <br>복원한 니트 패브릭은 <em>이 전시에 한국적인 요소를 더하는 특별한 </em><br><em>장치</em>입니다. 라 직조술은 <em>삼국시대부터 쓰이기 시작해 고려시대에 그 </em><br><em>기술이 꽃을 피웠지만</em> 조선시대부터 점차 잊혀진 기술입니다. 이제는 <br>한국인조차 생소하게 느끼기도 합니다.
+                                                <em>실을 교차해 직물의 투공 </em><br><em>효과를 내는</em> 얇고 <em>반투명한 라 직물은 마치 서양의 니트 조직과 비슷한 </em><br><em>모양을 하고 있습니다.</em>
+                                            </p>
+                                            <p class="w_960">
+                                                특별한 패브릭을 사용해 <em>기둥의 은은한 빛이 광석이 묻힌 땅으로 </em><br><em>흘러드는 느낌</em>을 연출했습니다. <em>‘라(羅)’</em>라는 고도의 직조술을 활용해 <br><em>아름다운 그라데이션 효과</em>를 낼 수 있었습니다. ‘라’의 직조 패턴을 <br>복원한 니트 패브릭은 <em>이 전시에 한국적인 요소를 더하는 특별한 </em><br><em>장치</em>입니다. 라 직조술은 <em>삼국시대부터 쓰이기 시작해 고려시대에 그 </em><br><em>기술이 꽃을 피웠지만</em> 조선시대부터 점차 잊혀진 기술입니다. 이제는 <br>한국인조차 생소하게 느끼기도 합니다.
+                                                <em>실을 교차해 직물의 투공 </em><br><em>효과를 내는</em> 얇고 <em>반투명한 라 직물은 마치 서양의 니트 조직과 비슷한 </em><br><em>모양을 하고 있습니다.</em>
+                                            </p>
+                                            <p class="w_768">
+                                                특별한 패브릭을 사용해 <em>기둥의 은은한 </em><br><em>빛이 광석이 묻힌 땅으로 흘러드는 </em><br><em>느낌</em>을 연출했습니다. <em>‘라(羅)’</em>라는 <br>고도의 직조술을 활용해 <em>아름다운 </em><br><em>그라데이션 효과</em>를 낼 수 있었습니다. <br>‘라’의 직조 패턴을 복원한 니트 <br>패브릭은 <em>이 전시에 한국적인 요소를 </em><br><em>더하는 특별한 장치</em>입니다. 라 직조술은 <br><em>삼국시대부터 쓰이기 시작해 </em><br><em>고려시대에 그 기술이 꽃을 피웠지만</em> <br>조선시대부터 점차 잊혀진 기술입니다. <br>이제는 한국인조차 생소하게 느끼기도 <br>합니다.
+                                                <em>실을 교차해 직물의 투공 </em><br><em>효과를 내는</em> 얇고 <em>반투명한 라 직물은 </em><br><em>마치 서양의 니트 조직과 비슷한 모양을 </em><br><em>하고 있습니다.</em>
+                                            </p>
+                                        </div>
+                                    </div>
+									<div class="bg s_motion"><img src="../../images/prologue/sec1_img2.png" alt=""></div>
+								</div>
+								<div class="txt_box right">
+									<div class="txt_head s_motion">패브릭 (어둠)</div>
+									<div class="txt_motion">
+                                        <div class="txt_area s_motion">
+                                            <p class="w_1280">
+                                                <em>그윽한 조명이 깃든 공간</em>을 조성하기 위해 특수한 패브릭을 <br>사용했습니다. <em>‘라(羅)’ 기법</em>으로 짠 블랙 패브릭으로 <em>가볍고 투명한 </em><br><em>느낌을 연출</em>했습니다. 또한 직물에 금박을 그대로 짜 넣는 ‘히키바쿠’ <br>기법으로 <em>우아한 움직임을 구현</em>했습니다. <em>‘히키바쿠’는 일본 교토의 </em><br><em>전통 직물인 ‘니시진오리(西陣織)’에 사용되는 직조술</em>입니다.
+                                            </p>
+                                            <p class="w_960">
+                                                <em>그윽한 조명이 깃든 공간</em>을 조성하기 위해 특수한 패브릭을 사용했습니다. <em>‘라(羅)’ </em><br><em>기법</em>으로 짠 블랙 패브릭으로 <em>가볍고 투명한 느낌을 연출</em>했습니다. 또한 <br>직물에 금박을 그대로 짜 넣는 ‘히키바쿠’ 기법으로 <em>우아한 움직임을 </em><br><em>구현</em>했습니다. <em>‘히키바쿠’는 일본 교토의 전통 직물인 ‘니시진오리(西陣織)’에 </em><br><em>사용되는 직조술</em>입니다.
+                                            </p>
+                                            <p class="w_768">
+                                                <em>그윽한 조명이 깃든 공간</em>을 조성하기 <br>위해 특수한 패브릭을 사용했습니다. <br><em>‘라(羅)’ 기법</em>으로 짠 블랙 패브릭으로 <br><em>가볍고 투명한 느낌을 연출</em>했습니다. <br>또한 직물에 금박을 그대로 짜 넣는 <br>‘히키바쿠’ 기법으로 <em>우아한 움직임을 </em><br><em>구현</em>했습니다. <em>‘히키바쿠’는 일본 </em><br><em>교토의 전통 직물인 ‘니시진오리</em><br><em>(西陣織)’에 사용되는 직조술</em>입니다.
+                                            </p>
+                                        </div>
+                                    </div>
+									<div class="bg s_motion"><img src="../../images/prologue/sec1_img3.png" alt=""></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section prologue_section2">
+				<div class="section_inner">
+					<div class="sec_box">
+						<div class="left_title">
+							디자인의 흔적 No01
+						</div>
+						<div class="right_cont">
+
+							<div class="product">
+								<div class="product_tit_img_box">
+									<div class="product_tit s_motion">
+										미스터리 클락과 프리즘 클락
+									</div>
+									<div class="product_img s_motion"><img src="../../images/prologue/sec2_img1.png" alt="" class="s_motion">
+										<div class="product_type">
+											<p class="type">미스터리 클락</p>
+											<p class="year">까르띠에, 2023</p>
+											<p class="product_ingredient">
+												화이트 골드, 락 크리스탈, 옵시디언, 크리소프레이즈, 에메랄드, 오닉스, 다이아몬드
+												<br>까르띠에 소장품
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="product_txt_box">
+									<div class="txt_wrap">
+									    <div class="txt_motion">
+                                            <div class="txt_area s_motion">
+                                                <p class="w_1280">
+                                                    <em>'시계의 경이로움’</em>이라 일컫는 <em>미스터리 클락</em>과 프리즘 <br>클락은 <em>능숙하게 구현한 착시 현상</em>을 바탕으로 <br>완성됩니다. 미스터리 클락의 시침과 분침은 <em>무브먼트와 </em><br><em>연결되지 않은 채 마치 다이얼에 떠 있는 것처럼</em> <br>보입니다. 실제로 <em>무브먼트는 시계의 받침대와 주변 </em><br><em>장식 속에 교묘히 숨어있습니다.</em> 미스터리 <br>컴플리케이션의 비밀이 밝혀진 이후에도 <em>미스터리 </em><br><em>클락은 세대를 거듭하여 계속 생산되고 있으며 여전히 </em><br><em>하나의 예술 작품으로 추앙받고 있습니다.</em>
+                                                    까르띠에의 <br>프리즘 클락 역시 시계를 <em>특정한 각도에서</em> 마주했을 때 <br><em>비로소 다이얼을 볼 수 있다</em>는 점에서 놀라움을 <br>자아냅니다.
+                                                </p>
+                                                <p class="w_960">
+                                                    <em>'시계의 경이로움’</em>이라 일컫는 <em>미스터리 클락</em>과 프리즘 <br>클락은 <em>능숙하게 구현한 착시 현상</em>을 바탕으로 <br>완성됩니다. 미스터리 클락의 시침과 분침은 <em>무브먼트와 </em><br><em>연결되지 않은 채 마치 다이얼에 떠 있는 것처럼</em> <br>보입니다. 실제로 <em>무브먼트는 시계의 받침대와 주변 </em><br><em>장식 속에 교묘히 숨어있습니다.</em> 미스터리 <br>컴플리케이션의 비밀이 밝혀진 이후에도 <em>미스터리 </em><br><em>클락은 세대를 거듭하여 계속 생산되고 있으며 여전히 </em><br><em>하나의 예술 작품으로 추앙받고 있습니다.</em>
+                                                    까르띠에의 <br>프리즘 클락 역시 시계를 <em>특정한 각도에서</em> 마주했을 때 <br><em>비로소 다이얼을 볼 수 있다</em>는 점에서 놀라움을 <br>자아냅니다.
+                                                </p>
+                                                <p class="w_768">
+                                                    <em>'시계의 경이로움’</em>이라 일컫는 <br><em>미스터리 클락</em>과 프리즘 클락은 <br><em>능숙하게 구현한 착시 현상</em>을 <br>바탕으로 완성됩니다. 미스터리 <br>클락의 시침과 분침은 <em>무브먼트와 </em><br><em>연결되지 않은 채 마치 다이얼에 </em><br><em>떠 있는 것처럼</em> 보입니다. 실제로 <br><em>무브먼트는 시계의 받침대와 주변 </em><br><em>장식 속에 교묘히 숨어있습니다.</em> <br>미스터리 컴플리케이션의 비밀이 <br>밝혀진 이후에도 <em>미스터리 클락은 </em><br><em>세대를 거듭하여 계속 생산되고 </em><br><em>있으며 여전히 하나의 예술 </em><br><em>작품으로 추앙받고 있습니다.</em>
+                                                    <br>까르띠에의 프리즘 클락 역시 <br>시계를 <em>특정한 각도에서</em> 마주했을 <br>때 <em>비로소 다이얼을 볼 수 있다</em>는 <br>점에서 놀라움을 자아냅니다.
+                                                </p>
+                                            </div>
+                                        </div>
+									</div>
+								</div>
+							</div>
+
+							<div class="product product2">
+								<div class="product_tit_img_box">
+									<div class="product_img s_motion"><img src="../../images/prologue/sec2_img2.png" alt="" class="s_motion">
+										<div class="product_type">
+											<p class="type">모델 A 미스터리 클락</p>
+											<p class="year">까르띠에 파리, 1918</p>
+											<p class="product_ingredient">
+												플래티늄, 옐로우 골드, 락 크리스탈, 네프라이트, 화이트 에나멜, 사파이어, 다이아몬드
+												<br>까르띠에 소장품
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="product_txt_box">
+									<div class="txt_wrap">
+										<!-- <div class="txt_area s_motion"></div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sub_btn_wrap">
+						<a href="chapter1.html" class="sub_arr_btn right"><span>소재의 변신과 색채</span>Chapter 1</a>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<footer class="footer">
+			<div class="cont">
+				<div class="exhibition">
+					<h6 class="ti_sec">전시 정보</h6>
+
+					<div class="info1 s_motion">
+						<dl class="date">
+							<dt>날짜</dt>
+							<dd>
+								2024.5.1 <span class="day">수.</span><br class="mo_view"/>
+								<span class="line"></span>
+								6.30 <span class="day">일.</span>
+							</dd>
+						</dl>
+
+						<dl>
+							<dt>시간</dt>
+							<dd>
+								<span class="li_grp">
+									10:00 - 19:00<br class="mo_view"/>
+									<span class="day">(월-목, 일)</span>
+								</span><br>
+								<span class="li_grp">
+									10:00 - 21:00<br class="mo_view"/>
+									<span class="day">(금-토)</span>
+								</span><br/>
+								<span class="detail">
+									입장은 폐관 45분 전까지 가능합니다
+								</span>
+							</dd>
+						</dl>
+
+						<div class="venue">
+							<dl>
+								<dt>장소</dt>
+								<dd>DDP (동대문디자인플라자) <br class="mo_view"/>아트홀 1, 컨퍼런스 홀<br/>
+									<span class="detail">
+										서울 중구 을지로 281
+									</span>
+								</dd>
+							</dl>
+
+							<div class="desc">
+								<ul>
+									<li>지하철 2,4,5호선, 동대문역사문화공원역, 1번 출구</li>
+									<li>주차 불가능</li>
+								</ul>
+							</div>
+
+							<a href="https://naver.me/xeclJspn" target="_blank" class="btn_map">네이버 지도</a>
+						</div>
+					</div>
+
+					<div class="info2 s_motion">
+						<dl>
+							<dt>주최</dt>
+							<dd>서울디자인재단, <br class="mo_view"/>중앙일보(주)</dd>
+						</dl>
+
+						<dl>
+							<dt>특별 협력</dt>
+							<dd>까르띠에</dd>
+						</dl>
+
+						<dl>
+							<dt>협조</dt>
+							<dd>온지음, 우쓰노미야 시 / <br class="mo_view"/>오야 석재, 유진 스튜디오</dd>
+						</dl>
+
+						<dl>
+							<dt>전시 디자인</dt>
+							<dd>신소재연구소</dd>
+						</dl>
+					</div>
+				</div>
+
+				<div class="ticket s_motion">
+					<h6 class="ti_sec">Ticket</h6>
+
+					<div class="info">
+						<div class="price">
+							<table>
+								<thead>
+									<tr>
+										<th>&nbsp;</th>
+										<th class="fee">관람료</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>성인<br class="mo_view"/>(2005년 이전 출생)</th>
+										<td>18,000원</td>
+									</tr>
+									<tr>
+										<th>청소년<br class="mo_view"/>(2011년생 ~ 2006년생)</th>
+										<td>10,000원</td>
+									</tr>
+									<tr>
+										<th>어린이<br class="mo_view"/>(2020년생 ~ 2012년생)</th>
+										<td>5,000원</td>
+									</tr>
+									<tr>
+										<th>유아<br class="mo_view"/>(2021년 이후 출생)</th>
+										<td>무료</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<a href="https://tickets.interpark.com/goods/24004802" target="_blank" class="btn_ticket">티켓 구매</a>
+
+							<div class="desc">
+								<ul>
+									<li>얼리버드 구매시 50% 할인 (4/1~4/30)</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="subscribe s_motion">
+					<dl>
+						<dt>전시 연계 프로그램</dt>
+						<dd>
+							<a href="#program" class="btn_program">신청하기</a>
+						</dd>
+					</dl>
+				</div>
+
+				<div class="subscribe s_motion">
+					<dl>
+						<dt>까르띠에 뉴스레터 구독</dt>
+						<dd>
+							<a href="#subscribe" class="btn_subscribe">구독하기</a>
+						</dd>
+					</dl>
+				</div>
+
+				<div class="copyright">
+					<div class="info">
+						<p>©JoongAng Ilbo Co.,Ltd.</p>
+						<div class="social">
+							<a href="https://www.instagram.com/cartier" target="_blank" class="btn_sns_ig"><span class="alt">Instagram</span></a>
+							<a href="https://www.facebook.com/Cartier" target="_blank" class="btn_sns_fb"><span class="alt">Facebook</span></a>
+							<a href="https://twitter.com/cartier" target="_blank" class="btn_sns_x"><span class="alt">X</span></a>
+							<a href="https://www.youtube.com/cartier" target="_blank" class="btn_sns_yt"><span class="alt">Youtube</span></a>
+							<!-- <a href="https://www.pinterest.com/cartier" target="_blank" class="btn_sns_pt"><span class="alt">Pinterest</span></a>
+							<a href="https://pf.kakao.com/_Ygxlis" target="_blank" class="btn_sns_kt"><span class="alt">Kakao</span></a> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- / wrap -->
+
+</body>
+
+
+</html>
