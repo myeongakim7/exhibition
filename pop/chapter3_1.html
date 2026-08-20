@@ -1,89 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-
-<head>
+  <head>
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title></title>
 
     <!-- 반디비즈 파일 -->
-    <link rel="stylesheet" href="../../../css/common.css" />
-    <link rel="stylesheet" href="../../../css/slick.css" />
-    <link rel="stylesheet" href="../../../css/aos.css" />
-    <link rel="stylesheet" href="../../../css/univers-pro.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../../css/style.css" />
+    <link rel="stylesheet" href="./../css/common.css" />
+    <link rel="stylesheet" href="./../css/slick.css" />
+    <link rel="stylesheet" href="./../css/aos.css" />
+    <link rel="stylesheet" href="./../css/univers-pro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./../css/style.css" />
 
+    <script src="./../js/aos.js"></script>
+    <script src="./../js/jquery-3.1.1.min.js"></script>
+    <script src="./../js/jquery.bpop.js"></script>
+    <script src="./../js/gsap.js"></script>
+    <script src="./../js/ScrollTrigger.js"></script>
+    <script src="./../js/slick.js"></script>
+    <script src="./../js/custom.js" defer></script>
+  </head>
 
-    <script src="../../../js/aos.js"></script>
-    <script src="../../../js/jquery-3.1.1.min.js"></script>
-    <script src="../../../js/jquery.bpop.js"></script>
-    <script src="../../../js/gsap.js"></script>
-    <script src="../../../js/ScrollTrigger.js"></script>
-    <script src="../../../js/slick.js"></script>
-    <script src="../../../js/custom.js" defer></script>
-
-</head>
-
-<body>
-
-<div class="wrapper">
-    <div class="container">
-
+  <body>
+    <div class="wrapper">
+      <div class="container">
         <div class="pop">
-            <div class="pop_inner">
-                <div class="pop_top">
-                    <div class="left_tit">디자인의 흔적 No15</div>
-                    <div class="pop_close">
-                        <a href="javascirpt:;" class="btn"><img src="../../../images/btn_btn_close.svg"></a>
-                    </div>
-                </div>
-                <div class="pop_tit mo">먼 곳에서 얻은 영감 : 동아시아 </div>
-                <div class="pop_img_wrap">
-                    <div class="pop_img pop_img15"><img src="../../../images/pop/chapter3_15.png"></div>
-                </div>
-                <div class="pop_txt_wrap">
-                    <div class="pop_tit pc">먼 곳에서 얻은 영감 : 동아시아 </div>
-                    <!--<div class="pop_subtit">Platinum, Steel, Three Golds, Gold <br>Techniques</div>-->
-                    <div class="txt_wrap">
-                        <div class="txt_area">
-                            <p><em>까르띠에의 영감의 원천을 따라가다 보면 지구 한 바퀴는 거뜬히 돌 수 있습니다. 동아시아, 인도, 중동아시아, 아프리카</em> 등 메종의 초창기부터 쌓인 까르띠에의 기록을 살펴보면 셀 수 없이 다양한 지명이 등장합니다. <em>까르띠에의 디자이너들은 그 다양한 문화 속 건축과 장식 미술, 신화 등에서 주얼리 디자인에 적용할 수 있는 패턴과 색감을 찾아내기 위해 연구</em>를 거듭했습니다. <em>동아시아</em>는 특히 메종의 크리에이션에 지속적인 영감을 주었습니다. 최근엔 까르띠에 주얼리 디자인에서 <em>고대 중앙아메리카 문화권의 요소</em>를 심심치 않게 발견할 수 있습니다. 이는 <em>세상을 향한 까르띠에의 호기심이 여전히 사그라들지 않고 왕성하게 지속되고 있음</em>을 보여줍니다.</p>
-                        </div>
-                    </div>
-                    <div class="pop_bt_wrap">
-                        <div class="bt_box">
-                            <div class="bt_side_txt pc">Left</div>
-                            <div class="bt_side_txt mo">Top</div>
-                            <div class="bt_tit">음양 펜던트</div>
-                            <div class="bt_sub_txt">까르띠에 파리, 1919</div>
-                            <div class="bt_txt_area">
-                                <p>플래티늄, 옐로우 골드, 오닉스, 다이아몬드, 루비, 에메랄드, 블랙 에나멜, 실크 코드</p>
-                                <p>까르띠에 소장품</p>
-                            </div>
-                        </div>
-                        <div class="bt_box">
-                            <div class="bt_side_txt pc">Right</div>
-                            <div class="bt_side_txt mo">Bottom</div>
-                            <div class="bt_tit">네크리스</div>
-                            <div class="bt_sub_txt">까르띠에, 2018</div>
-                            <div class="bt_txt_area">
-                                <p>화이트 골드, 총 55.18 캐럿 직사각형 모거나이트 2개, 오팔, 루벨라이트, 핑크 사파이어, 다이아몬드 펜던트는 분리하여 다른 체인에 연결해 착용할 수 있습니다.</p>
-                                <p>데이비드 센트너 부부 소장품</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="pop_inner">
+            <div class="pop_top">
+              <div class="left_tit">디자인의 흔적 No15</div>
+              <div class="pop_close">
+                <a href="javascirpt:;" class="btn"
+                  ><img src="./../images/btn_btn_close.svg"
+                /></a>
+              </div>
             </div>
+            <div class="pop_tit mo">먼 곳에서 얻은 영감 : 동아시아</div>
+            <div class="pop_img_wrap">
+              <div class="pop_img pop_img15">
+                <img src="./../images/pop/chapter3_15.png" />
+              </div>
+            </div>
+            <div class="pop_txt_wrap">
+              <div class="pop_tit pc">먼 곳에서 얻은 영감 : 동아시아</div>
+              <!--<div class="pop_subtit">Platinum, Steel, Three Golds, Gold <br>Techniques</div>-->
+              <div class="txt_wrap">
+                <div class="txt_area">
+                  <p>
+                    <em
+                      >까르띠에의 영감의 원천을 따라가다 보면 지구 한 바퀴는
+                      거뜬히 돌 수 있습니다. 동아시아, 인도, 중동아시아,
+                      아프리카</em
+                    >
+                    등 메종의 초창기부터 쌓인 까르띠에의 기록을 살펴보면 셀 수
+                    없이 다양한 지명이 등장합니다.
+                    <em
+                      >까르띠에의 디자이너들은 그 다양한 문화 속 건축과 장식
+                      미술, 신화 등에서 주얼리 디자인에 적용할 수 있는 패턴과
+                      색감을 찾아내기 위해 연구</em
+                    >를 거듭했습니다. <em>동아시아</em>는 특히 메종의
+                    크리에이션에 지속적인 영감을 주었습니다. 최근엔 까르띠에
+                    주얼리 디자인에서 <em>고대 중앙아메리카 문화권의 요소</em>를
+                    심심치 않게 발견할 수 있습니다. 이는
+                    <em
+                      >세상을 향한 까르띠에의 호기심이 여전히 사그라들지 않고
+                      왕성하게 지속되고 있음</em
+                    >을 보여줍니다.
+                  </p>
+                </div>
+              </div>
+              <div class="pop_bt_wrap">
+                <div class="bt_box">
+                  <div class="bt_side_txt pc">Left</div>
+                  <div class="bt_side_txt mo">Top</div>
+                  <div class="bt_tit">음양 펜던트</div>
+                  <div class="bt_sub_txt">까르띠에 파리, 1919</div>
+                  <div class="bt_txt_area">
+                    <p>
+                      플래티늄, 옐로우 골드, 오닉스, 다이아몬드, 루비, 에메랄드,
+                      블랙 에나멜, 실크 코드
+                    </p>
+                    <p>까르띠에 소장품</p>
+                  </div>
+                </div>
+                <div class="bt_box">
+                  <div class="bt_side_txt pc">Right</div>
+                  <div class="bt_side_txt mo">Bottom</div>
+                  <div class="bt_tit">네크리스</div>
+                  <div class="bt_sub_txt">까르띠에, 2018</div>
+                  <div class="bt_txt_area">
+                    <p>
+                      화이트 골드, 총 55.18 캐럿 직사각형 모거나이트 2개, 오팔,
+                      루벨라이트, 핑크 사파이어, 다이아몬드 펜던트는 분리하여
+                      다른 체인에 연결해 착용할 수 있습니다.
+                    </p>
+                    <p>데이비드 센트너 부부 소장품</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-
+      </div>
     </div>
-</div>
-<!-- / wrap -->
-</body>
-
-
+    <!-- / wrap -->
+  </body>
 </html>
